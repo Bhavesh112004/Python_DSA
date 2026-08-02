@@ -1,0 +1,15 @@
+def func(count):
+    if count == 4:
+        return;
+    else:
+        print("Hello")
+        count = count + 1;
+        func(count)
+
+def main():
+
+    func(0);
+
+if __name__ == "__main__":
+    main()
+    
